@@ -1,0 +1,93 @@
+/* ==================== Home Page ==================== */
+.home {
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(177, 64, 243, 0.3)),url(../Images/bg-image.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-content {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.home-img {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-text h3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #ff5f46;
+}
+
+.home-text h3::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    left: -15px;
+    width: 20px;
+    height: 2px;
+    background: #c5f105;
+}
+
+.home-text h3::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    right: -35px;
+    width: 20px;
+    height: 2px;
+    background: #c5f105;
+}
+
+.home-text h2 {
+    font-size: 4.5rem;
+    line-height: 8rem;
+    color: #FFC18F;
+}
+
+.home-text p {
+    font-size: 0.938rem;
+    margin-bottom: 1.5rem;
+    color: #FFF;
+    max-width: 800px;
+}
+
+.color {
+    color: #77D5D5;
+}
+
+.uil-import {
+    padding-right: 10px;
+}

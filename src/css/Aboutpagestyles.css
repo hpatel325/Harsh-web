@@ -1,0 +1,43 @@
+/* ==================== About Page ==================== */
+.about {
+    background-color: #069bf8bd;
+    background-image: linear-gradient(rgb(32, 32, 32), rgba(45, 75, 208, 0.752)),url(../Images/about-me.jpg);
+    padding: 50px;
+}
+
+.about-content {
+    max-width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.abt-span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ADEDEA;
+}
+
+.about-details {
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+
+.about-details pre, span {
+    color: #fff;
+}
+
+.about-text p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.about-content {
+    padding-bottom: 60px;
+}
